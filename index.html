@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			/*.d1{
+				box-sizing: border-box;
+				width: 200px;
+				height: 200px;
+				border: 2px solid #000;
+				border-radius: 100px;
+				
+				border-top-color:yellow ;
+				border-bottom-color:transparent ;
+				border-left-color:purple;
+				border-right-color:transparent ;
+				
+			}*/
+			
+			
+			.loading{
+				width: 400px;
+				height: 400px;
+				margin: 0 auto;
+				position: relative;
+			}
+			
+			.child1{
+				box-sizing: border-box;
+				width: 200px;
+				height: 200px;
+				border: 2px solid #000;
+				border-radius: 100px;
+				
+				border-top-color:red ;
+				border-bottom-color:transparent ;
+				border-left-color:red;
+				border-right-color:transparent ;
+				
+				position: absolute;
+				left: calc(50% - 100px);
+				top: calc(50% - 100px);
+				
+				
+				animation: xuanzhuan 2s infinite 0s;
+			
+			}
+			
+			.child2{
+				box-sizing: border-box;
+				width: 160px;
+				height: 160px;
+				border: 2px solid #000;
+				border-radius: 100px;
+				
+				border-top-color:yellow ;
+				border-bottom-color:transparent ;
+				border-left-color:yellow;
+				border-right-color:transparent ;
+				
+				position: absolute;
+				left: calc(50% - 80px);
+				top: calc(50% - 80px);
+				animation: xuanzhuan 2s infinite 0.2s;
+			
+			}
+			
+			.child3{
+				box-sizing: border-box;
+				width: 120px;
+				height: 120px;
+				border: 2px solid #000;
+				border-radius: 100px;
+				
+				border-top-color:greenyellow ;
+				border-bottom-color:transparent ;
+				border-left-color:greenyellow;
+				border-right-color:transparent ;
+				
+				position: absolute;
+				left: calc(50% - 60px);
+				top: calc(50% - 60px);
+				animation: xuanzhuan 2s infinite .4s;
+				
+			}
+			
+			
+			.child4{
+				box-sizing: border-box;
+				width: 80px;
+				height: 80px;
+				border: 2px solid #000;
+				border-radius: 100px;
+				
+				border-top-color:skyblue ;
+				border-bottom-color:transparent ;
+				border-left-color:skyblue;
+				border-right-color:transparent ;
+				
+				position: absolute;
+				left: calc(50% - 40px);
+				top: calc(50% - 40px);
+				animation: xuanzhuan 2s infinite .8s;
+			
+			}
+			
+			.child5{
+				box-sizing: border-box;
+				width: 40px;
+				height: 40px;
+				border: 2px solid #000;
+				border-radius: 100px;
+				
+				border-top-color:slateblue ;
+				border-bottom-color:transparent ;
+				border-left-color:slateblue;
+				border-right-color:transparent ;
+				
+				position: absolute;
+				left: calc(50% - 20px);
+				top: calc(50% - 20px);
+				animation: xuanzhuan 2s infinite 1.2s;
+				
+			}
+			
+			
+			@keyframes xuanzhuan{
+				0${
+					transform: rotate(0deg);
+				}
+				25%{
+					transform: rotate(180deg);
+				}
+				50%{
+					transform: rotate(360deg);
+				}
+				75%{
+					transform: rotate(180deg);
+				}	
+				100%{
+					transform: rotate(0deg);
+				}
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div class="loading">
+			<div class="child1"></div>
+			<div class="child2"></div>
+			<div class="child3"></div>
+			<div class="child4"></div>
+			<div class="child5"></div>
+		</div>
+		
+	</body>
+</html>
